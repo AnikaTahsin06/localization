@@ -1,3 +1,7 @@
+import { Profile } from "./profile";
+
 export class App {
-  message = 'Hello World!';
+  constructor() {
+    this.profile = new Profile("Anika", 16, "SD", 7241);
+  }
 }
